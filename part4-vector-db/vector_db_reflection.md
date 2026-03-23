@@ -1,0 +1,5 @@
+## Vector DB Use Case
+
+A traditional keyword-based search looks for **exact word matches**. If a lawyer types "termination clauses" the system scans every page for those exact words.In case of legal documents a contract might say "conditions for dissolution of agreement" or "grounds for early exit" a keyword search for "termination" would miss these even though they mean the same thing.The same concept can be phrased dozens of different ways across jurisdictions or drafting styles. Keyword search has no understanding of context it would return every paragraph containing the word "termination" whether it refers to ending a contract, ending an employee's role, or something else entirely.
+
+A vector database solves this by storing the **meaning** of text, not just the words.It genuinely understands the question and surfaces the most relevant contract sections, regardless of exact wording.
